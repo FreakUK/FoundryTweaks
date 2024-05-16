@@ -1,0 +1,89 @@
+{
+    "additions": {
+        "recipes": {
+            "_base_stone_gravel": {
+                "__template": "_base_gravel",
+                "category_identifier": "_base_components",
+                "rowGroup_identifier": "_base_components_concrete",
+                "name": "Stone Gravel",
+                "icon_identifier": "gravel",
+                "input_data": {
+                    "_base_stone": {
+                        "amount": 2,
+                        "percentage_str": "1"
+                    }
+                },
+                "output_data": {
+                    "_base_gravel": {
+                        "amount": 6,
+                        "percentage_str": "1"
+                    }
+                },
+                "inputElemental_data": {
+                },
+                "outputElemental_data": {
+                },
+                "relatedItemTemplateIdentifier": "",
+                "sortingOrderWithinRowGroup": 10,
+                "timeMs": 6000,
+                "tags": [
+                    "crusher"
+                ]
+            },
+            "_base_rocky_dirt_processing": {
+                "__template": "_base_gravel",
+                "category_identifier": "_base_components",
+                "rowGroup_identifier": "_base_components_concrete",
+                "name": "Rocky Dirt Processing",
+                "icon_identifier": "rocky_desert_dirt",
+                "input_data": {
+                    "_base_rocky_desert_dirt": {
+                        "amount": 3,
+                        "percentage_str": "1"
+                    }
+                },
+                "output_data": {
+                    "_base_stone": {
+                        "amount": 1,
+                        "percentage_str": "1"
+                    },
+                    "_base_dirt": {
+                        "amount": 1,
+                        "percentage_str": 1
+                    }
+                },
+                "relatedItemTemplateIdentifier": "",
+                "sortingOrderWithinRowGroup": 10,
+                "timeMs": 4000,
+                "tags": [
+                    "crusher"
+                ]
+            },
+            "_base_terrain_biomass": {
+                "__template": "_base_gravel",
+                "category_identifier": "_base_components",
+                "rowGroup_identifier": "_base_components_general",
+                "name": "Organic Biomass",
+                "icon_identifier": "biomass",
+                "input_data": {
+                    "_base_dirt": {
+                        "amount": 5,
+                        "percentage_str": "1"
+                    }
+                },
+                "output_data": {
+                    "_base_biomass": {
+                        "amount": 40,
+                        "percentage_str": "1"
+                    }
+                },
+                "relatedItemTemplateIdentifier": "",
+                "sortingOrderWithinRowGroup": 10,
+                "timeMs": 2000,
+                "tags": [
+                    "crusher"
+                ]
+            }
+        }
+    }
+}
