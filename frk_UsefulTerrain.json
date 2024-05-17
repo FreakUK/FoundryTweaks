@@ -39,7 +39,7 @@
                         "percentage_str": 1
                     }
                 },
-                "timeMs": 4000
+                "timeMs": 3000
             },
             "_base_terrain_biomass": {
                 "__template": "_base_gravel",
