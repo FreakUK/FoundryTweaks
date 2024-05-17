@@ -3,8 +3,6 @@
         "recipes": {
             "_base_stone_gravel": {
                 "__template": "_base_gravel",
-                "category_identifier": "_base_components",
-                "rowGroup_identifier": "_base_components_concrete",
                 "name": "Stone Gravel",
                 "icon_identifier": "gravel",
                 "input_data": {
@@ -19,21 +17,10 @@
                         "percentage_str": "1"
                     }
                 },
-                "inputElemental_data": {
-                },
-                "outputElemental_data": {
-                },
-                "relatedItemTemplateIdentifier": "",
-                "sortingOrderWithinRowGroup": 10,
-                "timeMs": 6000,
-                "tags": [
-                    "crusher"
-                ]
+                "timeMs": 6000
             },
             "_base_rocky_dirt_processing": {
                 "__template": "_base_gravel",
-                "category_identifier": "_base_components",
-                "rowGroup_identifier": "_base_components_concrete",
                 "name": "Rocky Dirt Processing",
                 "icon_identifier": "rocky_desert_dirt",
                 "input_data": {
@@ -52,17 +39,10 @@
                         "percentage_str": 1
                     }
                 },
-                "relatedItemTemplateIdentifier": "",
-                "sortingOrderWithinRowGroup": 10,
-                "timeMs": 4000,
-                "tags": [
-                    "crusher"
-                ]
+                "timeMs": 4000
             },
             "_base_terrain_biomass": {
                 "__template": "_base_gravel",
-                "category_identifier": "_base_components",
-                "rowGroup_identifier": "_base_components_general",
                 "name": "Organic Biomass",
                 "icon_identifier": "biomass",
                 "input_data": {
@@ -77,12 +57,7 @@
                         "percentage_str": "1"
                     }
                 },
-                "relatedItemTemplateIdentifier": "",
-                "sortingOrderWithinRowGroup": 10,
-                "timeMs": 2000,
-                "tags": [
-                    "crusher"
-                ]
+                "timeMs": 2000
             }
         }
     }
