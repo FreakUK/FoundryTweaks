@@ -1,0 +1,26 @@
+{
+    "_meta": {
+        "author": "FreakUK",
+        "description": "Misc tweaks that don't fit anywhere else",
+        "date": "2024-05-22",
+        "version": "1.0"
+    },
+    "changes": {
+        "recipes": {
+            "_base_walkway_platform": {
+                "input_data": {
+                    "_base_xenoferrite_plates": {
+                        "amount": 5,
+                        "percentage_str": "1"
+                    }
+                },
+                "output_data": {
+                    "_base_walkway_platform": {
+                        "amount": 3,
+                        "percentage_str": "1"
+                    }
+                }
+            }
+        }
+    }
+}

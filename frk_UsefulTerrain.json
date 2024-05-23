@@ -1,4 +1,10 @@
 {
+    "_meta": {
+        "author": "FreakUK",
+        "description": "Makes the in-game terrain blocks that you gather useable, instead of just clogging your inventory.",
+        "date": "2024-05-22",
+        "version": "2.0"
+    },
     "additions": {
         "recipes": {
             "_base_stone_gravel": {
@@ -39,7 +45,7 @@
                         "percentage_str": 1
                     }
                 },
-                "timeMs": 3000
+                "timeMs": 4000
             },
             "_base_terrain_biomass": {
                 "__template": "_base_gravel",
@@ -58,6 +64,30 @@
                     }
                 },
                 "timeMs": 2000
+            }
+        },
+        "research": {
+            "_base_useful_terrain": {
+                "__template": "_base_concrete_production",
+                "name": "Useful Terrain",
+                "icon_identifier": "stone",
+                "description": "Unlocks the ability to process terrain blocks into something useful",
+                "input_data": {
+                    "_base_science_pack_i": {
+                        "amount": 50
+                    },
+                    "_base_science_pack_ii": {
+                        "amount": 50
+                    }
+                },
+                "list_researchDependencies_str": [
+                    "_base_concrete_production"
+                ],
+                "list_craftingUnlocks_str": [
+                    "_base_stone_gravel",
+                    "_base_rocky_dirt_processing",
+                    "_base_terrain_biomass"
+                ]
             }
         }
     }

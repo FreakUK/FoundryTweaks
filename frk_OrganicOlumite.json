@@ -1,36 +1,40 @@
 {
-	"additions": {
-		"recipes": {
-			"_base_organic_olumite": {
-				"__template": "_base_paint",
-				"category_identifier": "_base_components",
-				"rowGroup_identifier": "_base_components_liquids",
-				"name": "Organic Olumite",
-				"icon_identifier": "olumite",
-				"input_data": {
-					"_base_biomass": {
-						"amount": 5,
-						"percentage_str": "1"
-					}
-				},
-			"output_data": {},
-			"inputElemental_data": {
-				"_base_water": {
-					"amount_str": "50"
-				}
-			},
-				"outputElemental_data": {
-					"_base_olumite": {
-						"amount_str": "250"
-					}
-				},
-			"relatedItemTemplateIdentifier": "_base_biomass",
-			"timeMs": 3000,
-			"tags": [
-					"chemical_processor"
-				],
-			}
-		}
-	}
+    "_meta": {
+        "author": "FreakUK",
+        "description": "Olumite from Biomass "
+    },
+    "additions": {
+        "recipes": {
+            "_base_organic_olumite": {
+                "__template": "_base_paint",
+                "category_identifier": "_base_components",
+                "rowGroup_identifier": "_base_components_liquids",
+                "name": "Organic Olumite",
+                "icon_identifier": "olumite",
+                "input_data": {
+                    "_base_biomass": {
+                        "amount": 5,
+                        "percentage_str": "1"
+                    }
+                },
+                "output_data": {
+                },
+                "inputElemental_data": {
+                    "_base_water": {
+                        "amount_str": "50"
+                    }
+                },
+                "outputElemental_data": {
+                    "_base_olumite": {
+                        "amount_str": "250"
+                    }
+                },
+                "relatedItemTemplateIdentifier": "_base_biomass",
+                "timeMs": 2500,
+                "tags": [
+                    "chemical_processor"
+                ]
+            }
+        }
+    }
 }
-

@@ -1,0 +1,48 @@
+{
+    "_meta": {
+        "author": "FreakUK",
+        "description": "Changes the walk-speed on terrain blocks so there's more variety.",
+        "date": "2024-05-22",
+        "version": "2.0"
+    },
+    "changes": {
+        "terrain": {
+            "_base_sand*": {
+                "movementSpeedModifier": 0.8
+            },
+            "_base_savanna*": {
+                "movementSpeedModifier": 0.8
+            },
+            "_base_temperate*": {
+                "movementSpeedModifier": 0.8
+            },
+            "_base_tundra*": {
+                "movementSpeedModifier": 0.8
+            },
+            "_base_boreal*": {
+                "movementSpeedModifier": 0.9
+            },
+            "_base_grass*": {
+                "movementSpeedModifier": 0.9
+            },
+            "_base_forest*": {
+                "movementSpeedModifier": 0.9
+            },
+            "_base_shrubland*": {
+                "movementSpeedModifier": 0.9
+            },
+            "_base_tropical*": {
+                "movementSpeedModifier": 0.9
+            },
+            "_base_rock_*": {
+                "movementSpeedModifier": 1.1
+            },
+            "_base_bedrock": {
+                "movementSpeedModifier": 1.1
+            },
+            "_base_marble*": {
+                "movementSpeedModifier": 1.3
+            }
+        }
+    }
+}

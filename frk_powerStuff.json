@@ -1,0 +1,71 @@
+{
+    "_meta": {
+        "author": "FreakUK",
+        "description": "Misc tweaks to powered objects",
+        "date": "2024-05-22",
+        "version": "1.0"
+    },
+    "changes": {
+        "buildings": {
+            "_base_battery_ii": {
+                "poleGridConnectionMatrix": "PowerPole, Battery",
+                "poleGrid_connectionRange": 30
+            },
+            "_base_power_pole_i": {
+                "poleGrid_connectionRange": 20
+            },
+            "_base_turbine_i": {
+                "poleGridConnectionMatrix": "PowerPole, GenericPowerSource",
+                "poleGrid_connectionRange": 30,
+                "poleGrid_maxConnections": 2
+            },
+            "_base_transformer_i": {
+                "poleGrid_maxConnections": 2
+            },
+            "_base_transformer_ii": {
+                "poleGrid_maxConnections": 2
+            },
+            "_base_light_ceiling_i": {
+                "lightEmitters": [
+                    {
+                        "lightIntensity": 22
+                    }
+                ]
+            },
+            "_base_power_pole_ii": {
+                "hasLightSource": true,
+                "powerComponentType": "LEGACY",
+                "powerSubType": "POWER_CONSUMER",
+                "energyConsumptionKW_str": "1",
+                "lightEmitters": [
+                    {
+                        "localOffset": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "lightIntensity": 18,
+                        "lightType": 0
+                    }
+                ]
+            },
+            "_base_power_pole_iii": {
+                "hasLightSource": true,
+                "powerComponentType": "LEGACY",
+                "powerSubType": "POWER_CONSUMER",
+                "energyConsumptionKW_str": "1",
+                "lightEmitters": [
+                    {
+                        "localOffset": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "lightIntensity": 15,
+                        "lightType": 0
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "_meta": {
+        "author": "FreakUK",
+        "description": "Glass from sand",
+        "date": "2024-05-22",
+        "version": "1.5"
+    },
+    "additions": {
+        "recipes": {
+            "_base_fine_sand": {
+                "__template": "_base_gravel",
+                "name": "Refined Sand (Mineral)",
+                "icon_identifier": "sand",
+                "input_data": {
+                    "_base_ore_mineral_rock": {
+                        "amount": 3,
+                        "percentage_str": "1"
+                    }
+                },
+                "output_data": {
+                    "_base_sand": {
+                        "amount": 1,
+                        "percentage_str": "1"
+                    }
+                },
+                "timeMs": 3000,
+                "tags": [
+                    "crusher"
+                ]
+            },
+            "_base_fine_sand_2": {
+                "__template": "_base_gravel",
+                "name": "Refined Sand (Gravel)",
+                "icon_identifier": "sand",
+                "input_data": {
+                    "_base_gravel": {
+                        "amount": 5,
+                        "percentage_str": "1"
+                    }
+                },
+                "output_data": {
+                    "_base_sand": {
+                        "amount": 12,
+                        "percentage_str": "1"
+                    }
+                },
+                "inputElemental_data": {
+                    "_base_water": {
+                        "amount_str": "10.0"
+                    }
+                },
+                "timeMs": 12000,
+                "tags": [
+                    "casting_machine"
+                ]
+            },
+            "_base_sand_glass": {
+                "__template": "_base_glass",
+                "name": "Glass (Sand)",
+                "icon_identifier": "glass",
+                "input_data": {
+                    "_base_sand": {
+                        "amount": 3,
+                        "percentage_str": "1"
+                    }
+                },
+                "output_data": {
+                    "_base_glass": {
+                        "amount": 3,
+                        "percentage_str": "1"
+                    }
+                },
+                "timeMs": 5000,
+                "tags": [
+                    "casting_machine"
+                ]
+            }
+        }
+    }
+}
